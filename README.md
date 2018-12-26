@@ -5,7 +5,7 @@ This is a basic example of Masonry Grid in Javascript for beginners. This exampl
 Define the container in which Masonry Grid has to be applied. A web page may contains many images containers but as per project requirement only specific container(s) needs Masonry Grid to be applied. By setting class "masonry" to each container where Masonry Grid need to be applied, container(s) for Masonry Grid is ready.
 
 e.g.:
-  <div class="row masonry"></div>
+  &lt;div class="row masonry"&gt;&lt;/div&gt;
 
 Once container is defined, every images inside container should be wraped within a div with class "item".
 
