@@ -11,7 +11,7 @@ Once container is defined, every images inside container should be wraped within
 
 e.g.:
   &lt;div class="row masonry"&gt;
-    <div class="item"><img src="http://icegroupindia.com/img/events.jpg" class="img-fluid" /></div>
+    &lt;div class="item"&gt;&lt;img src="http://icegroupindia.com/img/events.jpg" class="img-fluid" /&gt;&lt;/div&gt;
   &lt;/div&gt;
   
 You can add bootstrap classes to define max image width on the page which can be col-lg-2/col-lg-3/col-lg-4/col-lg-6 which will eqaully distribute images on the page.
