@@ -10,26 +10,26 @@ e.g.:
 Once container is defined, every images inside container should be wraped within a div with class "item".
 
 e.g.:
-  <div class="row masonry">
+  &lt;div class="row masonry"&gt;
     <div class="item"><img src="http://icegroupindia.com/img/events.jpg" class="img-fluid" /></div>
-  </div>
+  &lt;/div&gt;
   
 You can add bootstrap classes to define max image width on the page which can be col-lg-2/col-lg-3/col-lg-4/col-lg-6 which will eqaully distribute images on the page.
 
 e.g.:
-  <div class="row masonry">
-    <div class="col-lg-3 item text-center"><img src="http://icegroupindia.com/img/events.jpg" class="img-fluid" /></div>
-  </div>
+   &lt;div class="row masonry"&gt;
+    &lt;div class="col-lg-3 item text-center"&gt;&lt;img src="http://icegroupindia.com/img/events.jpg" class="img-fluid" /&gt;&lt;/div&gt;
+  &lt;/div&gt;
   
 Now declare the Masonry container for js script to identify the area where Masnry grid has to be applied.
 
 e.g.:
-  <script>
-		var container = document.querySelector(".masonry");   //Name of variable container should not be changed
-	</script>
+  &lt;script&gt;
+	var container = document.querySelector(".masonry");   //Name of variable container should not be changed
+  &lt;/script&gt;
 
 After declaring container, to use this Masonry Grid in the project "jsMasonry.js" to be included. To include js:
   
-  <script src="jsMasonry.js"></script>
+  &lt;script src="jsMasonry.js"&gt;&lt;/script&gt;
 
 Thats all. Now the project is ready with Masonry grid.
